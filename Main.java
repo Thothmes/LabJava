@@ -53,8 +53,10 @@ public class Main {
                         
                         """);
                 System.out.println("Введите дробное число, от которого хотите узнать его часть:");
-                double num0 = n.nextDouble();
-                System.out.println(fraction(num0));
+                String input1 = n.next();
+                input1 = input1.replace(',', '.'); // Замена запятой на точку
+                double num1 = Double.parseDouble(input1);
+                System.out.println(fraction(num1));
                 break;
 
             case 2:
