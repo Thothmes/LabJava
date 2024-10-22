@@ -147,6 +147,7 @@ public class Main {
                         деления.
                         
                         """);
+                System.out.println("Введите число:");
                 int num7 = n.nextInt();
                 System.out.println(is35(num7));
                 break;
