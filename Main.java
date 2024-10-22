@@ -132,6 +132,7 @@ public class Main {
                         отрицательным – то необходимо вернуть его без знака минус).
                         
                         """);
+                System.out.println("Введите число:");
                 int num6 = n.nextInt();
                 System.out.println(abs(num6));
                 break;
