@@ -210,6 +210,7 @@ public class Main {
                         которой будут записаны все числа от 0 до x (включительно).
                         
                         """);
+                System.out.println("Введите кол-во чисел в строке:");
                 int num11 = n.nextInt();
                 System.out.println(listNums(num11));
                 break;
