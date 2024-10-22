@@ -69,9 +69,9 @@ public class Main {
                         
                         """);
                 System.out.println("Введите число от 0 до 9, чтобы узнать его код:");
-                String input = n.next();
-                char num1 = input.charAt(0);
-                System.out.println(charToNum(num1));
+                String input2 = n.next();
+                char num2 = input2.charAt(0);
+                System.out.println(charToNum(num2));
                 break;
 
             case 3:
