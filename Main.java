@@ -69,8 +69,7 @@ public class Main {
                         
                         """);
                 System.out.println("Введите число от 0 до 9, чтобы узнать его код:");
-                String input2 = n.next();
-                char num2 = input2.charAt(0);
+                char num2 = n.next().charAt(0);
                 System.out.println(charToNum(num2));
                 break;
 
@@ -389,7 +388,8 @@ public class Main {
     }
 
     public int charToNum (char x)  {
-        return (Character.getNumericValue(x)+48);
+        int y = (int) x;
+        return (y);
     }
 
     public boolean is2Digits (int x) {
