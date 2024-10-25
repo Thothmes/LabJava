@@ -388,8 +388,7 @@ public class Main {
     }
 
     public int charToNum (char x)  {
-        int y = (int) x;
-        return (y);
+        return (int) x;
     }
 
     public boolean is2Digits (int x) {
